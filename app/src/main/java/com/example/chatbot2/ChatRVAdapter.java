@@ -45,7 +45,7 @@ public class ChatRVAdapter extends RecyclerView.Adapter {
             case "user":
                 ((UserViewHolder)holder).userTV.setText(chatsModal.getMessage());
                 break;
-            case "bot:":
+            case "bot":
                 ((BotViewHolder)holder).botTV.setText(chatsModal.getMessage());
                 break;
         }

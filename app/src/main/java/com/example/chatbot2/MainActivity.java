@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if(response.isSuccessful()){
                     MsgModal modal = response.body();
-                    Log.v("checkresponce", String.valueOf(modal));
+                    //Log.v("checkresponce", String.valueOf(modal));
                     chatsModalArrayList.add(new ChatsModal(modal.getAnswer(),BOT_KEY));
                     chatRVAdapter.notifyDataSetChanged();
                 }
