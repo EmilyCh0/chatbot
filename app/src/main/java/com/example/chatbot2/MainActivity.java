@@ -57,9 +57,9 @@ public class MainActivity extends AppCompatActivity {
     }
     private void getResponse(String msg){
         chatsModalArrayList.add(new ChatsModal(msg, USER_KEY));
-        String url = "http://192.168.0.5:5000/?msg="+msg;   // API url setting (http://api/~~~/get?bid=~~~&key=~~~&uid=[uid]&msg)
+        String url = "<address/>?msg="+msg;
         //Log.v("checkurl",url);
-        String BASE_URL = "http://192.168.0.5:5000/";   //  (http://api/~~~/)
+        String BASE_URL = "<address/>";
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
