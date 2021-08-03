@@ -16,7 +16,7 @@
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/ic_tmp_bot"
+            android:src="@drawable/avatar2"
             android:layout_margin="5dp"/>
 
         <TextView
